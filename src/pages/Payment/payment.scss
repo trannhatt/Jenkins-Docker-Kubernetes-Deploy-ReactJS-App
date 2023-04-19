@@ -1,0 +1,287 @@
+.wrap-info-payment {
+    border: 2px solid black;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+// For class info-text
+.info-text .col-xl-10,
+.info-text .col-xl-auto {
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
+.info-text .col-xl-auto {
+    font-size: 1rem;
+    padding-top: 1.4rem;
+    margin-left: 8%;
+}
+// For class info-content
+.info-content {
+    border-top: 16px solid rgb(178, 173, 173);
+    border-bottom: 16px solid rgb(178, 173, 173);
+    border-left: 8px solid rgb(178, 173, 173);
+    border-right: 8px solid rgb(178, 173, 173);
+}
+.info-content p,
+.info-content input,
+.info-content .dropdown {
+    margin-top: 1rem;
+    margin-right: 2rem;
+    display: inline-block;
+}
+.firstinfo input {
+    margin-left: 2%;
+    width: 70%;
+}
+.secondinfo input {
+    width: 65%;
+}
+.thirdinfo input {
+    margin-bottom: 1%;
+    width: 80%;
+}
+.fourthinfo .btn {
+    background-color: white;
+    color: black;
+}
+.fourthinfo input {
+    text-align: center;
+}
+.fourthinfo input[type='text']:disabled {
+    background-color: white;
+    color: black;
+}
+.fourthinfo input[type='submit'] {
+    width: 7rem;
+    height: 2.5rem;
+    background-color: white;
+}
+.fourthinfo select {
+    margin-left: 4%;
+    height: 2.5rem;
+    text-align: center;
+}
+// For class detail-payment
+.detail-payment {
+    border-left: 8px solid rgb(178, 173, 173);
+    border-right: 8px solid rgb(178, 173, 173);
+    border-bottom: 16px solid rgb(178, 173, 173);
+}
+.ord {
+    overflow-y: scroll;
+    height: 500px;
+}
+.ord-detail {
+    margin: 1.5rem;
+    display: flex;
+}
+.ord p {
+    font-size: 2rem;
+}
+.ord img {
+    width: 25rem;
+    height: 20rem;
+}
+.ord .ordname {
+    margin: 10%;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.ord .ordamount {
+    font-size: 1.5rem;
+    margin: 10%;
+}
+.ord .price {
+    width: 100%;
+    margin: auto;
+    font-size: 1.8rem;
+    text-align: right;
+}
+.ord-detail-wrap {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.ord-detail-wrap > div {
+    width: 70%;
+}
+// For class detail-money
+.detail-money {
+    margin: 1rem;
+    display: flex;
+    font-size: 1.5rem;
+}
+.detail-money p {
+    margin: 2rem;
+    font-size: 1.8rem;
+}
+#txtsum {
+    font-weight: bold;
+}
+.detail-money .col-xl-1 {
+    width: 15%;
+    text-align: right;
+    margin-right: 1rem;
+}
+// For class select-payment
+.select-payment div {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.select-payment p {
+    font-size: 1.5rem;
+    margin: 1rem 2rem;
+}
+.select-payment input {
+    margin-left: 2rem;
+    width: 15rem;
+    background-color: white;
+}
+// For class submit-payment
+.towrap {
+    text-align: center;
+}
+.submit-payment {
+    display: inline-block;
+    margin: 1.5rem;
+    width: 13rem;
+    height: 3rem;
+    background-color: #361f17;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+textarea {
+    padding: 0.5rem;
+}
+// Responsive
+// Ipad
+@media all and (max-width: 1024px) {
+    .info-text {
+        font-size: 1rem;
+    }
+    .info-text .col-xl-auto {
+        display: none;
+    }
+    .sametext {
+        float: right;
+    }
+    .firstinfo input,
+    .secondinfo input,
+    .thirdinfo input {
+        width: 70%;
+        border: 1px solid black;
+    }
+    .fourthinfo select {
+        margin-left: 5%;
+    }
+    .col-xl textarea {
+        width: 100%;
+    }
+    .ord img {
+        width: 25rem;
+        height: 20rem;
+    }
+    .ord-detail-wrap {
+        flex-direction: column;
+    }
+    .ord .price {
+        text-align: left;
+        margin-left: 10%;
+    }
+    .detail-money {
+        flex-direction: row;
+    }
+    .fourthinfo + .col-xl {
+        margin-top: 1rem;
+    }
+    .detail-money .col-xl-1 {
+        width: 30%;
+        text-align: right;
+        margin-right: 1rem;
+    }
+    .ord-detail-wrap > div {
+        width: 100%;
+    }
+}
+// // Smartphone
+@media all and (max-width: 576px) {
+    .info-text .col-xl-10 {
+        font-size: 1.6rem;
+    }
+    .firstinfo input,
+    .secondinfo input,
+    .thirdinfo input {
+        margin: 0;
+        width: 100%;
+        border: 1px solid black;
+    }
+    .fourthinfo select {
+        margin-left: 0;
+    }
+    .fourthinfo p {
+        margin-bottom: 0;
+    }
+    .fourthinfo input[type='text'] {
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .fourthinfo input[type='submit'] {
+        margin-right: 0;
+        margin-left: 0.4rem;
+    }
+    .fourthinfo + .col-xl {
+        margin-left: 4%;
+    }
+    #btYes,
+    #btNo {
+        font-size: 0.8rem;
+        width: 3.5rem;
+    }
+    .ord-detail {
+        flex-direction: column;
+    }
+    .ord img {
+        width: 20rem;
+        height: 14rem;
+    }
+    .ord-detail-wrap {
+        width: 100%;
+        text-align: center;
+    }
+    .ord-detail-wrap .price {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .select-payment {
+        display: none;
+    }
+    .detail-money {
+        margin: 0;
+        width: 95%;
+    }
+    .detail-money p {
+        font-size: 1.5rem;
+    }
+    .detail-money .col-4 p {
+        margin-left: 0;
+    }
+    .detail-money p {
+        font-size: 1rem;
+    }
+    .detail-money + .col-xl-1 {
+        width: 0%;
+        margin-right: 0;
+    }
+    .ord .ordname {
+        font-size: 1.5rem;
+    }
+    .ord .ordamount {
+        font-size: 1.2rem;
+    }
+    .ord .price {
+        font-size: 1.5rem;
+    }
+}

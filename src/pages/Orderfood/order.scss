@@ -1,0 +1,51 @@
+// * {
+//     color: black;
+// }
+.banner_content h5
+{
+    font-style: italic;
+}
+.banner_content
+{
+    padding-top:70px;
+}
+.banner_content span
+{
+    color: #600202;
+    font-weight: bolder;
+}
+.banner_button
+{
+    font-weight: bold;
+    transition:0.3s;
+}
+.banner_button::hover
+{
+    background:#212245;
+}
+.food__category {
+    background: #fb6e14;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0px;
+    border-radius: 8px;
+  }
+  
+  .food__category button {
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    background: transparent;
+    color: #fff;
+  }
+  
+  .food__category button img {
+    width: 20px;
+    height: 20px;
+  }
+  .foodBtnActive {
+    background: #fff !important;
+    border-radius: 5px;
+    color: #df2020 !important;
+  }
+  

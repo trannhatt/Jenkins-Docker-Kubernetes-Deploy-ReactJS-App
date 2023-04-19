@@ -1,0 +1,13 @@
+.category_item
+{
+    background: #fde4e4;
+    padding: 20px 20px;
+    border-radius:  5px;    
+    cursor:pointer;
+    transition: 0.4s;
+
+}
+.category_item:hover
+{
+    transform: translateY(-15px);
+}

@@ -1,0 +1,59 @@
+.wrap-footer {
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+// For class describe
+.describe a {
+    text-decoration: none;
+    font-weight: bold;
+}
+.describe {
+    margin-left: 1%;
+}
+.describe h3 {
+    font-weight: bold;
+}
+// For class content
+.content-footer {
+    text-align: center;
+    margin-left: -1%;
+}
+.content-footer img {
+    width: 15rem;
+    height: 12rem;
+}
+.content-footer h3 {
+    font-weight: bold;
+}
+// For class info-company
+.info-company {
+    text-align: right;
+}
+.info-company h3 {
+    font-weight: bold;
+}
+// Responsive
+// Ipad
+@media only screen and (max-width: 992px) {
+    .describe,
+    .info-company {
+        display: none;
+    }
+}
+// Smartphone
+@media only screen and (max-width: 576px) {
+    .describe,
+    .info-company {
+        display: none;
+    }
+    .content-footer {
+        width: 100%;
+    }
+    .content-footer h3 {
+        font-size: 1.3rem;
+    }
+    .content-footer img {
+        width: 13rem;
+        height: 10rem;
+    }
+}

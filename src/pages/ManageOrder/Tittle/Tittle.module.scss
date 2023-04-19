@@ -1,0 +1,26 @@
+.Tittle span {
+    color: #13ff8d;
+}
+
+.Tittle {
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+.Wrapper {
+    background: linear-gradient(45deg, rgba(209, 247, 255, 0.8) 30%, rgba(152, 255, 255, 0.85)), url(fr3.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    height: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    border: 2px dashed rgb(96, 252, 255);
+}
+
+.header {
+    border-bottom: 1px solid rgb(216, 216, 216);
+}

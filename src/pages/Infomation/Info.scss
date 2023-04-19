@@ -1,0 +1,26 @@
+
+
+.containerinfo{
+
+    width: 60%;
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.Form{
+    flex:1;
+    flex-direction: column;
+    margin-left: 10px;
+    width: max-content;
+}
+.header{
+    border-bottom: 1px solid rgb(216, 216, 216);
+}

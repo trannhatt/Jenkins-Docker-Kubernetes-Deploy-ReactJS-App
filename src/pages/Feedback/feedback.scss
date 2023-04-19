@@ -1,0 +1,108 @@
+.feedback-star {
+    width: 100%;
+    text-align: center;
+}
+.feedback-star svg {
+    width: 5rem;
+    height: 10rem;
+    margin-right: 5rem;
+    cursor: pointer;
+}
+.feedback-star .bilast {
+    margin-right: 0;
+}
+.txt-area {
+    display: flex;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    width: 100%;
+}
+.txt-area > div {
+    width: 40%;
+}
+.txt-area p {
+    margin-left: 3rem;
+    margin-top: 5rem;
+    font-size: 1.4rem;
+}
+div .note {
+    margin-top: 0;
+    font-style: italic;
+    color: rgb(163, 153, 153);
+}
+.addpic,
+.addvid,
+.addtxt {
+    width: 25%;
+    text-align: center;
+    border: 8px solid rgb(178, 173, 173);
+    border-bottom: 16px solid rgb(178, 173, 173);
+}
+.another-info p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.addtxt {
+    width: 50%;
+}
+.addtxt p {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-style: italic;
+    color: rgb(163, 153, 153);
+}
+
+@media all and (max-width: 1024px) {
+    .txt-area textarea {
+        height: 20rem;
+    }
+    div .note {
+        display: none;
+    }
+    .txt-area p {
+        display: none;
+    }
+    .txt-area div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .txt-area svg {
+        margin-left: 20%;
+    }
+}
+
+@media all and (max-width: 576px) {
+    .txt-area textarea {
+        height: 10rem;
+    }
+    .txt-area {
+        margin-left: 0;
+    }
+    div .note {
+        display: none;
+    }
+    .feedback-star svg {
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+        width: 3rem;
+        height: 6rem;
+    }
+    .txt-area svg {
+        margin-left: 2rem;
+    }
+    .addpic svg,
+    .addvid svg {
+        width: 4rem;
+    }
+    .addpic p,
+    .addvid p {
+        display: none;
+    }
+    .addtxt p {
+        font-size: 1rem;
+    }
+} ;

@@ -1,0 +1,153 @@
+.wrapperform {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    border-radius: 5px;
+    
+    padding: 10px;
+    margin-left: 10%;
+}
+
+.ttcn{
+    //display: flex;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 650;
+    padding-bottom: 10px;
+    color: #242424;
+}
+
+.item{
+    padding-bottom: 10px;
+    display: flex;
+    //margin-left: -30%;
+    flex-direction: column;
+}
+
+.item label{
+    display: flex;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+margin-left: 10px;
+}
+
+.item input{
+    width: 100%;
+    height: 40px;
+    padding: 5px 20px;
+    font-size: 18px;
+    color: #828282;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.Btn0{
+    display: none;
+}
+.Btn {
+   // width: 15%;
+  background-color: #696969;
+  color: white;
+  padding: 14px 20px;
+  margin-left: 60%;
+  margin-top: 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+    padding: 10px 5px;
+    &:active {
+        color: rgb(58, 58, 58);
+ 
+    }
+
+    &:hover {
+        background-color: rgba(142, 142, 142, 0.8);
+    }
+}
+
+.Btn1 {
+   // width: 15%;
+  background-color: #696969;
+  color: white;
+  padding: 14px 20px;
+  margin-left: 5%;
+  margin-top: 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+    padding: 10px 5px;
+    &:active {
+        color: rgb(58, 58, 58);
+ 
+    }
+
+    &:hover {
+        background-color: rgba(142, 142, 142, 0.8);
+    }
+}
+
+.listbtn{
+    display: flex;
+    flex-direction: row;
+}
+
+@media all and (max-width: 1024px) {
+    .Btn{
+        margin-left: 5%;
+    }
+    .Btn .Btn1 {
+        width: 40%;
+        font-size: 10px;
+        padding: 0rem;
+    }
+    .wrapperform{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+
+}
+
+
+@media all and (max-width: 576px) {
+
+    .item label{
+        font-size: 15px;
+    }
+    
+    .item input{
+        font-size: 15px;
+    }
+    .wrapperform{
+        width: 96%;
+        margin-left: 2%;
+    }
+    .Btn{
+        margin-left: 5%;
+    }
+    .Btn0{
+    background-color: #696969;
+    color: white;
+    padding: 14px 20px;
+    margin-left: 5%;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+        padding: 10px 5px;
+        &:active {
+            color: rgb(58, 58, 58);
+    
+        }
+
+        &:hover {
+            background-color: rgba(142, 142, 142, 0.8);
+        }
+            display:block;
+            margin-left: 20%;
+        }
+}

@@ -1,0 +1,36 @@
+.table1{
+    margin: 20px 20px 20px 20px;
+    width: 100%;
+  }
+
+  .tbhd{
+    background-image: linear-gradient(to bottom right, rgb(133, 218, 255), rgb(152, 255, 181));
+    border-radius: 10px;
+    color: rgb(49, 0, 0);
+  }
+  .btn{
+    background-color: rgb(255, 96, 43);
+    border-color: aliceblue;
+    &:hover {
+      background-color: rgba(255, 151, 99, 0.8);
+  }&:active {
+    background-color: rgb(255, 206, 206);
+
+}
+  }
+  .qldh{
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  .qldh span{
+    color: #0ee97f;
+  }
+.ddh{
+  font-size: 15px;
+    font-weight: 500;
+    margin-left: 55px;
+    margin-bottom: 50px;
+}
+

@@ -1,0 +1,21 @@
+.container {
+    //min-width: 1300px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    width: 100%;
+    display: initial;
+}
+
+.wrapper {
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.content {
+    // min-width: 1800px;
+    display: flex;
+    // width: 650px;
+    flex-direction: row;
+    min-height: 1000px;
+    margin-bottom: 3rem;
+}
