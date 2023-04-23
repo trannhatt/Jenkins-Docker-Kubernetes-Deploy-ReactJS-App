@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    dockerimagename = "transachnhat/react-app"
+    dockerimagename = "transachnhat/react-app:latest"
     dockerImage = ""
   }
 
