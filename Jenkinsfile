@@ -9,7 +9,7 @@ pipeline {
 
   stages {
 
-    stage('Checkout Source') {
+    stage('Check Source') {
       steps {
         git 'https://github.com/trannhatt/projectSoft-tech.git'
       }
@@ -39,7 +39,7 @@ pipeline {
     stage('Deploying React.js container to Kubernetes') {
       steps {
         script {
-          kubernetesDeploy(configs: "deployment-k8s.yaml", "service-k8s.yaml", kubeconfigId: 'kubeconfig')
+          kubernetesDeploy (configs: 'deployment-service.yaml',kubeconfigId: 'kubeconfig')
         }
       }
     }
