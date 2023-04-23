@@ -12,7 +12,7 @@
 ### Jenkins
 - **[Install Jenkins](https://www.jenkins.io/doc/book/installing/docker/)** I will install in docker (running container).
 - **[Install Plugin in Jenkins]()** I install Docker Pipeline Plugin.
-**[Add dockerhub-credential and github-credential]()** in Manage Credentials.
+- **[Add dockerhub-credential and github-credential]()** in Manage Credentials.
 ### Kubernetes
 - **[Install Minikube](https://www.jenkins.io/doc/book/installing/docker/)** I install in Ubuntu WSL.
 - **[Install Kubectl](https://www.jenkins.io/doc/book/installing/docker/)** I install in Ubuntu WSL.
