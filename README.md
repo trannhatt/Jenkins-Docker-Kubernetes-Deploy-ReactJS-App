@@ -1,12 +1,12 @@
-# Project-Jenkins-Docker-Kubernetes-Deploy-ReactJS-App
+# Project deploy an ReactJS Application to Kubernetes Cluster using Jenkins CI/CD Pipeline
 
-<h6>This project I using Jenkins, Docker and Kubernetes to deploy a reactjs application. Here is the architecture of what I will be created</h6>
+<h6>This project  I use Jenkins, Docker, and Kubernetes to deploy a ReactJS application in this project. </h6>
 <img src="https://webexample75.files.wordpress.com/2023/04/architecture-v0.2.png" height="auto" width="100%" />
 
 ## Summary
-- Code pushed to github, then I will build jenkins pineline, jenkins will pull code from github and automate build image and then push that image to dockerhub using dockerfile I created.
-- I build a kubernetes cluster using minikube, it will take the newly created image from dockerhub and deploy to the cluster.
-- The Kubernetes cluster I created consists of 1 node with a namespace called react-app, in which deploy deployments and services, 3 pods are created, use the service load balancer to access the website.
+- I push the code to GitHub and then build a Jenkins pipeline. Jenkins pulls the code from GitHub, automates the image build, and pushes the image to DockerHub using the Dockerfile I created.
+- I build a Kubernetes cluster using Minikube. It takes the newly created image from DockerHub and deploys it to the cluster.
+- I create a Kubernetes cluster consisting of one node with a namespace called 'react-app', in which I deploy deployments and services. I create three pods and use the service load balancer to access the website.
 
 ## Set up requirements
 ### Jenkins
