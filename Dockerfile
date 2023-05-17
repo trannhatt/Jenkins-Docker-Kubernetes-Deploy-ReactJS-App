@@ -1,4 +1,4 @@
-#It will use node:19-alpine3.16 as the parent image for building the Docker image
+#It will use node:latst as the parent image for building the Docker image
 FROM node:latest
 
 #It will create a working directory for Docker. The Docker image will be created in this working directory.
