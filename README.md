@@ -1,14 +1,35 @@
 # Project deploy an ReactJS Application to Kubernetes Cluster using Jenkins CI/CD Pipeline
+<h1 align="center">
+  <img src="https://webexample75.files.wordpress.com/2023/04/architecture-v0.2.png" width="100%" /><br/>
+Triển khai ứng dụng ReactJS lên Kubernetes Cluster sử dụng Jenkins CI/CD Pipeline
+</h1>
 
-<h6>This project  I use Jenkins, Docker, and Kubernetes to deploy a ReactJS application in this project. </h6>
-<img src="https://webexample75.files.wordpress.com/2023/04/architecture-v0.2.png" height="auto" width="100%" />
 
-## Summary
-- I push the code to GitHub and then build a Jenkins pipeline. Jenkins pulls the code from GitHub, automates the image build, and pushes the image to DockerHub using the Dockerfile I created.
-- I build a Kubernetes cluster using Minikube. It takes the newly created image from DockerHub and deploys it to the cluster.
-- I create a Kubernetes cluster consisting of one node with a namespace called 'react-app', in which I deploy deployments and services. I create three pods and use the service load balancer to access the website.
+<p align="center"><br/>Tập trung vào việc ứng dụng tool <b>DevOps</b>.</p>
 
-## Set up requirements
+<p align="center">
+  <a href="https://kubernetes.io/" target="_blank">
+    <img src="https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  </a>&nbsp;
+  <a href="https://www.jenkins.io/" target="_blank">
+    <img src="https://img.shields.io/badge/-Jenkins-D24939?logo=jenkins&logoColor=white" alt="Jenkins" />
+  </a>&nbsp;
+  <a href="https://www.docker.com/" target="_blank">
+    <img src="https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white" alt="Docker" />
+  </a>&nbsp;
+</p>
+
+<p align="center">
+    <b>Ngôn ngữ được dùng</b>
+    <a href="README-vi.md">Tiếng việt</a>
+</p>
+
+# Tổng quan dự án
+Mã nguồn sẽ được Dev đẩy lên GitHub và sau đó chúng ta sẽ xây dựng một Jenkins Pipeline. Jenkins Server chịu trách nhiệm kéo mã nguồn từ GitHub, tự động xây dựng Image và đẩy Image lên DockerHub bằng Dockerfile được tạo. Tiếp theo, xây dựng một Kubernetes cluster bằng Minikube, nó sẽ lấy Image mới tạo từ DockerHub và triển khai nó lên cluster.
+
+>Chúng ta sẽ tạo một Kubernetes cluster bao gồm một node với một name-space gọi là 'react-app', trong đó chúng ta sẽ triển khai deployments và services, tạo 3 pods và sử dụng service load balancer để truy cập trang web.
+
+# Yêu cầu thiết lập
 ### Jenkins
 - **[Install Jenkins](https://www.jenkins.io/doc/book/installing/docker/)** I will install in docker (running container).
 - **[Install Plugin in Jenkins]()** I install Docker Pipeline Plugin.
@@ -36,7 +57,7 @@
 - Setup Multi-branch Pipel.ine
   - add github-credential.
   - add HTTP repo link github.
-### Scan Pepository Now and Build Now
+<!-- ### Scan Pepository Now and Build Now
 
 ## Kubernetes command
 Start your local Kubernetes cluster with minikube:
@@ -99,4 +120,4 @@ kubectl delete namespace react-app
 Deletes a local Kubernetes cluster:
 ```properties
 minikube delete
-``` 
+```  -->
