@@ -1,4 +1,3 @@
-# Project deploy an ReactJS Application to Kubernetes Cluster using Jenkins CI/CD Pipeline
 <h1 align="center">
   <img src="https://webexample75.files.wordpress.com/2023/04/architecture-v0.2.png" width="100%" /><br/>
 Triển khai ứng dụng ReactJS lên Kubernetes Cluster sử dụng Jenkins CI/CD Pipeline
@@ -21,7 +20,7 @@ Triển khai ứng dụng ReactJS lên Kubernetes Cluster sử dụng Jenkins CI
 
 <p align="center">
     <b>Ngôn ngữ được dùng</b>
-    <a href="README-vi.md">Tiếng việt</a>
+    <a href="README.md">Tiếng việt</a>
 </p>
 
 # Tổng quan dự án
